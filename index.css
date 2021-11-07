@@ -86,4 +86,13 @@
     background-color: grey;
     color: black;
   }
-  
+
+  h1{
+      color: orange;
+      text-align: center;
+  }
+
+  p{
+      font-style: italic;
+      text-align: center;
+  }
