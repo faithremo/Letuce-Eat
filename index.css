@@ -96,3 +96,47 @@
       font-style: italic;
       text-align: center;
   }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: row;
+    
+  }
+  
+  .box1{
+      flex: 1;
+      background: #e0e0d1;
+      padding: 50px;
+      font-size: 20px;
+      font-family: Roboto;
+      text-align: center;
+  }
+  .box2{
+    flex: 1;
+    background: #e0e0d1;
+    padding: 50px;
+    font-size: 20px;
+    font-family: Roboto;
+    text-align: center;
+}
+.box3{
+    flex: 1;
+    background: #e0e0d1;
+    padding: 50px;
+    font-size: 20px;
+    font-family: Roboto;
+    text-align: center;
+}
+
+@media screen and (max-width:768px){
+    .flex-container{
+        flex-direction: column;
+    }
+}
+
+
+
+  
